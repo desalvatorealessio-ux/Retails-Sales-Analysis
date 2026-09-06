@@ -114,7 +114,7 @@ ORDER BY age_group, revenue DESC;
 
 **Answer:**
 
-<img width="400" alt="Image3_AgexCategory" src="https://github.com/user-attachments/assets/f68d168a-33e2-4007-a03c-5f59e90b4074" />
+<img width="200" alt="Image3_AgexCategory" src="https://github.com/user-attachments/assets/f68d168a-33e2-4007-a03c-5f59e90b4074" />
 
 
 The top category shifts with age — 18-25 favors Beauty, 26-35 favors Clothing, and every group from 36 upward favors Electronics — while total spend rises from 18-25 up through a peak at 46-55 before declining at 56+. Age relates to both how much customers spend and what they buy; the two don't move independently.

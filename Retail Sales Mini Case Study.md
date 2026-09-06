@@ -35,7 +35,8 @@ GROUP BY gender, product_category
 ORDER BY gender, revenue DESC;
 ```
 
-![Revenue by gender and category](images/q1_gender_category.png)
+<img width="600" alt="Image2_GenderxCategory" src="https://github.com/user-attachments/assets/dd604c93-25d3-4622-9ff5-9595953f5afa" />
+
 
 Age influences total spend more clearly than gender does: revenue climbs from 18-25 up through a peak at 46-55 ($100,690) before dropping at 56+, and the 18-25 group has the highest average order value ($500.30) despite fewer transactions. Gender makes almost no difference — Female ($456.55) and Male ($455.43) average order values are within $2 of each other — and category preference splits close to evenly by gender, with Female slightly favoring Clothing and Male slightly favoring Electronics.
 
@@ -56,7 +57,8 @@ ORDER BY sale_year, sale_month;
 
 **Answer:**
 
-![Monthly revenue trend](images/q2_monthly_trend.png)
+<img width="600" alt="Image4_Salesbymonth" src="https://github.com/user-attachments/assets/da2f5e33-4bf8-4d42-bfd0-640b842bdcd8" />
+
 
 **By day of week:**
 
@@ -70,7 +72,8 @@ GROUP BY sale_weekday
 ORDER BY revenue DESC;
 ```
 
-![Revenue by day of week](images/q2_weekday_pattern.png)
+<img width="600" alt="Image4_Revbyweekday" src="https://github.com/user-attachments/assets/dc1d7d32-3cbb-41aa-be5a-5c8adc66a29b" />
+
 
 Monthly revenue bounces rather than trends — May is the strongest full month ($53,150) and September the weakest ($23,620), with no steady ramp up or down across the year (2024-01 shows only $1,530 because the data cuts off one day into the month, not a real drop). By day of week, Saturday is the strongest ($78,815 revenue, $525.43 average order value) and Thursday the weakest on both measures — sales are consistently higher on weekends than midweek.
 
@@ -92,7 +95,8 @@ ORDER BY category_revenue DESC;
 
 **Answer:**
 
-![Category performance](images/q3_category_performance.png)
+<img width="600" alt="Image6_CategoryPerformace" src="https://github.com/user-attachments/assets/44590718-d1e2-46d7-984a-6f3f76b9e16a" />
+
 
 The three categories are close to evenly split — Electronics leads with 34.4% of revenue ($156,905), Clothing follows closely at 34.1%, and Beauty at 31.5% — so no single category dominates customer demand.
 
@@ -110,7 +114,8 @@ ORDER BY age_group, revenue DESC;
 
 **Answer:**
 
-![Revenue by age group and category](images/q4_age_category.png)
+<img width="600" alt="Image3_AgexCategory" src="https://github.com/user-attachments/assets/f68d168a-33e2-4007-a03c-5f59e90b4074" />
+
 
 The top category shifts with age — 18-25 favors Beauty, 26-35 favors Clothing, and every group from 36 upward favors Electronics — while total spend rises from 18-25 up through a peak at 46-55 before declining at 56+. Age relates to both how much customers spend and what they buy; the two don't move independently.
 
@@ -138,7 +143,8 @@ ORDER BY revenue DESC;
 
 **Answer:**
 
-![Revenue by season](images/q5_season_revenue.png)
+<img width="600" alt="Image7_SeasonRevenue" src="https://github.com/user-attachments/assets/2ca3126f-9ee2-428e-8485-adfae2c39646" />
+
 
 **By season and category:**
 
@@ -158,7 +164,8 @@ GROUP BY season, product_category
 ORDER BY season, revenue DESC;
 ```
 
-![Revenue by season and category](images/q5_season_category.png)
+<img width="600" alt="Image8_SeasonxCategory" src="https://github.com/user-attachments/assets/73458f77-e322-4ac1-801d-2ef2b728f0fa" />
+
 
 Winter is the strongest season for both revenue ($125,730) and average order value ($495.00), and the category mix shifts with it: Electronics leads in Winter and Summer, Clothing leads in Spring, and Beauty never leads a single season outright. Customers' category preferences genuinely change across the year, not just how much they spend.
 
@@ -181,7 +188,8 @@ ORDER BY quantity;
 
 **Answer:**
 
-![Quantity vs order value and price](images/q6_quantity_price.png)
+<img width="600" alt="Image9_QuantityxPrice" src="https://github.com/user-attachments/assets/eddbcf71-6d6b-4bd1-be9b-df0c287c5a30" />
+
 
 **Average basket size by category:**
 
@@ -193,7 +201,8 @@ FROM retail_sales_clean
 GROUP BY product_category;
 ```
 
-![Average quantity by category](images/q6_quantity_category.png)
+<img width="600" alt="Image10_QuantitybyCategory" src="https://github.com/user-attachments/assets/1d003d88-5740-42a8-ad48-8cec86cdd2e1" />
+
 
 Basket size doesn't correlate with item price — average price per unit stays roughly flat ($166–200) regardless of whether 1 or 4 items are purchased — and average basket size is nearly identical across all three categories (2.48–2.55 items). Purchase quantity behaves independently of both price tier and category.
 
@@ -219,7 +228,8 @@ ORDER BY product_category,
 
 **Answer:**
 
-![Price tier distribution by category](images/q7_price_tier.png)
+<img width="600" alt="Image11_Pricetier" src="https://github.com/user-attachments/assets/cd8acec8-9955-471f-be5d-f43721b9b1d5" />
+
 
 Price per unit only takes three effective tiers in this data ($25–50 Budget, $300 Mid, $500 Premium — not a continuous spread). Despite Premium being a minority of transactions in every category (18–22%), it generates 51–59% of that category's revenue. A small share of higher-priced transactions disproportionately drives revenue, consistently across all three categories.
 

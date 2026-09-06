@@ -22,7 +22,8 @@ ORDER BY age_group;
 
 **Answer:**
 
-![Revenue by age group](images/q1_age_group_revenue.png)
+![Revenue by age group](<img width="1276" height="586" alt="Image1_Age Group" src="https://github.com/user-attachments/assets/626f1c11-d3eb-4883-8938-aded20df96e9" />
+)
 
 **By gender and category:**
 

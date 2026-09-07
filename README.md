@@ -261,6 +261,29 @@ Price per unit only takes three effective tiers in this data ($25–50 Budget, $
 <img width="400" alt="PAGE4_BI" src="https://github.com/user-attachments/assets/7d3d2e47-f66d-4ed7-98b0-6ac798752dba" />
 
 ---
+## 💡 Recommendations
+
+Four actions are directly supported by the findings above:
+
+**1. Prioritize Premium-tier availability over Budget-tier.**
+Across all three categories, Premium-priced items ($500) are a minority of transactions (18–22%) but generate the majority of revenue (51–59%) — consistently, in Beauty, Clothing, and Electronics alike. Budget items ($25–$50) are bought most often but contribute only 11–14% of revenue per category. Inventory priority, prominent placement, and marketing spend should weight toward keeping Premium stock available, since that's disproportionately where revenue comes from.
+
+**2. Target category marketing by age group, not as one-size-fits-all.**
+Category preference shifts clearly with age: 18-25 favors Beauty, 26-35 favors Clothing, and every group from 36 upward favors Electronics. Segmenting campaigns by age bracket — rather than promoting all categories equally to everyone — aligns spend with what each group is already buying.
+
+**3. Align inventory and staffing with the Saturday/Winter peaks.**
+Saturday is the strongest day for both revenue and average order value; Winter is the strongest season. Thursday and Fall are consistently the weakest on both counts. Stock replenishment and staffing should be planned around the known peaks, and the Thursday/Fall lulls are a reasonable place to test promotional pushes to smooth demand.
+
+**4. Test basket-building promotions.**
+Average price per unit stays flat (~$166–200) regardless of whether a customer buys 1 or 4 items — quantity and price currently move independently. Nothing in current behavior suggests customers are already being nudged toward larger baskets, which points to untapped room for bundle or multi-buy offers.
+
+Category-level prioritization isn't supported by this data — Electronics, Clothing, and Beauty are within 3 points of each other (34.4% / 34.1% / 31.5% of revenue). Age-based targeting (point 2) is the better lever than shifting resources between categories.
+
+**What this data can't justify:**
+- **Retention or loyalty strategy** — every `Customer ID` appears exactly once; there's no repeat-purchase behavior here to design a loyalty program around.
+- **Confirming Winter as a recurring seasonal pattern** — this file covers one calendar year (2023) plus a single day of 2024. The Winter peak is real *in this data*, but calling it an annual pattern would need at least one more year to compare against.
+- **Real-world pricing decisions** — price per unit only takes 5 exact values in this dataset, which reads as a simplified/synthetic pricing structure rather than a live catalog. Any actual pricing changes should be validated against real product-level data first.
+
 ## 📝 Notes on the data
 
 - **No repeat customers:** every `Customer ID` appears exactly once across all 1,000 transactions, so repeat-purchase rate, customer lifetime value, and retention analysis aren't possible with this file.

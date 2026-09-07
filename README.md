@@ -3,8 +3,11 @@
 **Dataset:** [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) (Kaggle) — 1,000 transactions, Jan 2023 – Jan 2024
 **Tools:** SQLite (DB Browser for SQLite), Power BI
 **Scope:** Descriptive analysis only — what happened, and how the data breaks down. No forecasting or predictive modeling; these findings are meant to support a recommendation, not make one.
-📊 **Dashboard Preview**
+
+## 📊 Dashboard Preview
+
 <img width="600" alt="PAGE1_BI" src="https://github.com/user-attachments/assets/6e11b779-5aff-4a23-a1fd-7cb40acd1094" />
+
 4-page interactive Power BI dashboard covering overview KPIs, customer demographics, seasonality, and pricing. Full dashboard below.
 
 ## 📌 Solution
@@ -237,14 +240,22 @@ ORDER BY product_category,
 Price per unit only takes three effective tiers in this data ($25–50 Budget, $300 Mid, $500 Premium — not a continuous spread). Despite Premium being a minority of transactions in every category (18–22%), it generates 51–59% of that category's revenue. A small share of higher-priced transactions disproportionately drives revenue, consistently across all three categories.
 
 ---
-##📊 **Full Dashboard**
+## 📊 Full Dashboard
+
 **Page 1 — Overview**
+
 <img width="400" alt="PAGE1_BI" src="https://github.com/user-attachments/assets/f4949fd2-d551-4e60-ae35-e8d920aaa3bd" />
+
 **Page 2 — Customer Demographics**
+
 <img width="400" alt="PAGE2_BI" src="https://github.com/user-attachments/assets/44ee6180-7aa4-4403-a4ff-1cc180252074" />
+
 **Page 3 — Time & Seasonality**
+
 <img width="400" alt="PAGE3_BI" src="https://github.com/user-attachments/assets/197221de-0805-4cf8-a6e4-38ac7c49c0f5" />
+
 **Page 4 — Basket Size & Pricing**
+
 <img width="400" alt="PAGE4_BI" src="https://github.com/user-attachments/assets/7d3d2e47-f66d-4ed7-98b0-6ac798752dba" />
 
 ---

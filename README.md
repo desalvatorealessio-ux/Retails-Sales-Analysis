@@ -4,6 +4,8 @@
 **Tools:** SQLite (DB Browser for SQLite), Power BI
 **Scope:** Descriptive analysis only — what happened, and how the data breaks down. No forecasting or predictive modeling; these findings are meant to support a recommendation, not make one.
 
+📌 **[Jump straight to the Recommendations →](#-recommendations)**
+
 ## 📊 Dashboard Preview
 
 <img width="600" alt="PAGE1_BI" src="https://github.com/user-attachments/assets/6e11b779-5aff-4a23-a1fd-7cb40acd1094" />

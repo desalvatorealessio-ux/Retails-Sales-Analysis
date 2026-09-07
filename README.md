@@ -8,7 +8,8 @@
 
 <img width="600" alt="PAGE1_BI" src="https://github.com/user-attachments/assets/6e11b779-5aff-4a23-a1fd-7cb40acd1094" />
 
-4-page interactive Power BI dashboard covering overview KPIs, customer demographics, seasonality, and pricing. Full dashboard below.
+4-page interactive Power BI dashboard covering overview KPIs, customer demographics, seasonality, and pricing.
+Full dashboard below.
 
 ## 📌 Solution
 

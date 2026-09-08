@@ -1,4 +1,4 @@
-# 🛍️ Retail Sales Mini Case Study
+# 🛍️ Retail Sales Case Study
 
 **Dataset:** [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) (Kaggle) — 1,000 transactions, Jan 2023 – Jan 2024
 **Tools:** SQLite (DB Browser for SQLite), Power BI
